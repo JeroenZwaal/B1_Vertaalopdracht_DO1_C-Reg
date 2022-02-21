@@ -10,7 +10,7 @@ namespace CSharpReg
             Console.WriteLine("Welkom bij C#Reg, het Python KassaSysteem voor en door DeveloperLand!");
             Console.WriteLine("Tel de kassa, en geef op hoeveel er nu in zit.");
             Console.WriteLine("Bedrag in kassa?");
-            decimal bedragInKassaBegin = decimal.Parse(Console.ReadLine());//yyy
+            decimal bedragInKassaBegin = decimal.Parse(Console.ReadLine());
 
             string keuze = "";
             decimal dagTotaal = 0;
